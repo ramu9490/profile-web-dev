@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registraion Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+   
+        <fieldset>
+
+            
+                <center>
+                    <h3>STUDENT REGISTRATION FORM</h3>
+                </center>
+                <hr noshade="10px" />
+        
+            <main>
+                <table align="center" cellpadding="10px">
+
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="firstname">FIRSTNAME</label>
+                            </td>
+                            <td>
+                                <input type="text" name="firstname" placeholder="FirstName" autofocus required />
+                                <span>(max 30 characters a-z and A-Z)</span>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="lastname">LASTNAME</label>
+                            </td>
+                            <td>
+                                <input type="text" name="lastname" placeholder="LastName" required />
+                                <span>(max 30 characters a-z and A-Z)</span>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="lastdate">DATE OF BIRTH</label>
+                            </td>
+                            <td>
+                                <input type="date" name="lastdate" style="width: 165px;" />
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="Email">EMAILID</label>
+
+                            </td>
+                            <td>
+                                <input type="email" name="Email" placeholder="Enter Your Mail id" />
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="mobilenumber">MOBILE NUMBER</label>
+                            </td>
+                            <td>
+                                <input type="text" name="mobilenumber" placeholder="Enter Your MobileNumber"
+                                    maxlength="10" />
+                                <span> (10 digit number)</span>
+                            </td>
+
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="gender">GENDER</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="gender" />Male
+                                <input type="radio" name="gender" />Female
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="age">AGE</label>
+                            </td>
+                            <td>
+                                <input type="number" name="age" max="18">
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label name="address">ADDRESS</label>
+                            </td>
+                            <td>
+                                <textarea rows="5" cols="23" name="address"></textarea>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="city">CITY</label>
+                            </td>
+                            <td>
+                                <input type="text" name="city" maxlength="30" />
+                                <span>(max 30 characters a-z and A-Z)</span>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="pincode">PINCODE</label>
+                            </td>
+                            <td>
+                                <input type="text" name="pincode" maxlength="6" />
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="state">STATE</label>
+                            </td>
+                            <td>
+                                <select style="width: 44.4%;">
+                                    <option name="state">ANDHRA</option>
+                                    <option name="state">TELAGANA</option>
+                                    <option name="state">BIHAR</option>
+                                    <option name="state">KARANTAKA</option>
+                                    <option name="state">GOA</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="country">COUNTRY</label>
+                            </td>
+                            <td>
+                                <input type="text" name="country" value="INDIA" readonly />
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="hobbies">HOBBIES</label>
+                            </td>
+                            <td>
+                                Drwaing<input type="checkbox" name="hobbies" />
+                                Singing<input type="checkbox" name="hobbies" />
+                                Dancing<input type="checkbox" name="hobbies" />
+                                Sketching<input type="checkbox" name="hobbies" /><br>
+                                Others<input type="checkbox" name="hobbies" />
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label>REFERENCE</label>
+                            </td>
+                            <td>
+                                <select>
+                                    <optgroup label="Consultant">
+                                        <option value="T1X">T1X</option>
+                                        <option value="T2X">T2X</option>
+                                        <option value="T3x">T3x</option>
+                                    </optgroup>
+                                    <optgroup label="Managment">
+                                        <label for=""></label>
+                                        <option>PD</option>
+                                        <option>DH</option>
+                                        <option>SVP</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label for="browser">FAVORITE SUBJECT</label>
+                            </td>
+                            <td>
+                                <input list="browsers" name="browser">
+                                <datalist id="browsers">
+                                    <option name="browser1">MATHEMATICS</option>
+                                    <option name="browser2">CHEMISTERY</option>
+                                    <option name="browser3">PHYSICS</option>
+                                    <option name="browser4">SOCICAL</option>
+                                </datalist>
+                            </td>
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td>
+                                <label>QUALIFICATION </label>
+                                <br /><br /><br /><br /><br /><br /><br />
+                            </td>
+
+                            <td>
+                                <table>
+
+                                    <tr>
+                                        <td align="center"><b>Sl.No.</b></td>
+                                        <td align="center"><b>Examination</b></td>
+                                        <td align="center"><b>Board</b></td>
+                                        <td align="center"><b>Percentage</b></td>
+                                        <td align="center"><b>Year of Passing</b></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Class &#8569;</td>
+                                        <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                                        <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+                                        <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Class &#8571;</td>
+                                        <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                                        <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                                        <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Graduation</td>
+                                        <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                                        <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                                        <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Masters</td>
+                                        <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+                                        <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+                                        <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td align="center">(10 char max)</td>
+                                        <td align="center">(upto 2 decimal)</td>
+                                    </tr>
+
+
+                                </table>
+
+                            </td>
+
+                        </tr>
+                    </section>
+                    <section>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                            <a href="/ramu Details/pratice.html" target="_blank">
+                                <input type="button" value="Home">
+                            </a>
+
+                            </td>
+                        </tr>
+                    </section>
+
+                </table>
+            </main>
+            <footer>
+                <hr noshade="1px">
+                <p>
+                    <center> &lt;&lt; &copy;2023-2024 Ramu Bobbadi|All Rights Recived &gt;&gt;</center>
+                </p>
+            </footer>
+    </form>
+    </fieldset>
+</body>
+
+</html>

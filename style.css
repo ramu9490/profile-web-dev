@@ -1,0 +1,22 @@
+hr{
+       
+    border-style: dotted none none none;
+
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+   
+}
+h3{
+    font-size: 20px;
+}
+body{
+    background-color: #eeeeee;
+}
+h4{
+    color: #00adb5;;
+}
+h3{
+    color: #00adb5;
+}
