@@ -1,13 +1,14 @@
+
+
+
 hr{
        
     border-style: dotted none none none;
 
     width: 100%;
 }
-h1{
-    font-size: 50px;
-   
-}
+
+
 h3{
     font-size: 20px;
 }
@@ -15,8 +16,43 @@ body{
     background-color: #eeeeee;
 }
 h4{
-    color: #00adb5;;
+    color: #00adb5;
+ 
+   
+   
+    
 }
 h3{
     color: #00adb5;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 35px;
+    /*font-weight: 600;
+    color: #00adb5;
+    text-shadow: 3px 4px 1px red;
+    line-height: 7%;
+    font-family: "poppins" sans-serif;
+   
+    text-decoration: underline rgb(183, 0, 255);*/
+    border-top: 12px solid black;
+    border-right:12px solid black;
+    border-bottom: 12px solid black;
+    border-left: 12px solid black;
+    padding: 16px;
+    margin: 20px;
+}
+img{
+    border-top: 16px solid #00adb5;
+    border-right: 16px solid #00adb5;
+    border-bottom: 16px solid #00adb5;
+    border-left: 16px solid #00adb5;
+   padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:5px;
+    border-radius: 32px;
 }
