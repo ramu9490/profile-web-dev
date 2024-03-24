@@ -1,0 +1,37 @@
+div{
+border:1px solid aqua;
+background-color: aqua;
+    height: 400px;
+    width: 800px;
+    display: flex;
+position: relative;
+   
+    
+h1 {
+    border: 10px solid red;
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    
+}
+h2{
+    border: 10px solid blue;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+   
+    position: absolute;
+    right: 0px;
+    
+}
+
+h3{
+    border: 10px solid green;
+    background-color:green;
+    height: 100px;
+    width: 100px;
+    
+ 
+
+    
+ }
