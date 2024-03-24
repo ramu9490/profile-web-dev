@@ -1,30 +1,18 @@
-.parent{
-    border: 1px solid brown;
-    background: brown;
-    height: 500px;
-    width: 900px;
-   position: relative;
-    
-.child1{
-    border: 1px solid wheat;
-    background: wheat;
-    height: 100px;
-    width: 100px;
- 
+
+a{
+    text-decoration: none;
+    margin: 50px;
+    font-size: 50px;
+   
 }
-.child2{
-    border: 1px solid rgb(214, 148, 24);
-    background: rgb(214, 148, 24);
-    height: 100px;
-    width: 100px; 
+.navbar{
+ border: 1px solid orange;
+ background-color: orange;
 }
-.child3{
-    border: 1px solid rgb(111, 230, 20);
-    background: rgb(121, 226, 41);
-    height: 100px;
-    width: 100px; 
- 
-    position: absolute;
-    left: 0px;
-    
+.content{
+
+    position: sticky;
+    top: 10px;
+   /* position: fixed;
+    top: 20px;*/
 }
