@@ -1,45 +1,15 @@
-
-.grandp{
-    /*background-color: blanchedalmond;*/
-   color: blueviolet;
+/*border are from the what i given in css*/
+.child1{
+    
+color: bisque;
+font-size: 25px;
+border-left: 0.5em solid red;
+border-right: 0.5em solid red;
+border-top: 0.5em solid red;
+border-bottom: 0.5em solid red;
+padding: 0px;
+margin: 10px;
+box-sizing: border-box;
+       
 }
 
-
-.parent{
-    color: aqua;
-    background-color: brown;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: justify;
-    font-family: "Caveat",Arial, sans-serif;
-    text-decoration: none;
-    /*text-shadow: 5px 2px wheat;*/
-
-
-}
-
-.first{
-    color: rgb(98, 226, 43);
-    font-size: 20px;
-    font-weight: 300;
-    text-align: justify;
-    font-family: "Caveat",Arial, sans-serif;
-    text-decoration: none;
-    background-color:ye;
-}
-.second{
-    color: rgb(226, 43, 183);
-    font-size: 30px;
-    font-weight: 300;
-    text-align: justify;
-    font-family: "Caveat",Arial, sans-serif;
-    text-decoration: underline gray;
-}
-.third{
-    color:black;
-    font-size: 40px;
-    font-weight: 300;
-    text-align: justify;
-    font-family: "Caveat",Arial, sans-serif;
-    text-decoration: none;
-}
