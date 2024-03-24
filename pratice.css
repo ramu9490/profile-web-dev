@@ -1,15 +1,31 @@
-/*border are from the what i given in css*/
-.child1{
-    
-color: bisque;
-font-size: 25px;
-border-left: 0.5em solid red;
-border-right: 0.5em solid red;
-border-top: 0.5em solid red;
-border-bottom: 0.5em solid red;
-padding: 0px;
-margin: 10px;
-box-sizing: border-box;
-       
+.parent{
+    border: 1px solid brown;
+    background: brown;
+    height: 500px;
+    width: 900px;
+display: flex;
 }
-
+.child1{
+    border: 1px solid wheat;
+    background: wheat;
+    height: 100px;
+    width: 100px;
+ 
+}
+.child2{
+    border: 1px solid rgb(214, 148, 24);
+    background: rgb(214, 148, 24);
+    height: 100px;
+    width: 100px; 
+}
+.child3{
+    border: 1px solid rgb(111, 230, 20);
+    background: rgb(121, 226, 41);
+    height: 100px;
+    width: 100px; 
+   
+   position: relative;
+   left: 500px;
+   position: absolute;
+   right: 900px;
+}
