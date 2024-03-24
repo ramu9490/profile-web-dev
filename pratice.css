@@ -3,8 +3,8 @@
     background: brown;
     height: 500px;
     width: 900px;
-display: flex;
-}
+   position: relative;
+    
 .child1{
     border: 1px solid wheat;
     background: wheat;
@@ -23,9 +23,8 @@ display: flex;
     background: rgb(121, 226, 41);
     height: 100px;
     width: 100px; 
-   
-   position: relative;
-   left: 500px;
-   position: absolute;
-   right: 900px;
+ 
+    position: absolute;
+    left: 0px;
+    
 }
