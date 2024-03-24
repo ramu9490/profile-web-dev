@@ -1,37 +1,45 @@
-div{
-border:1px solid aqua;
-background-color: aqua;
-    height: 400px;
-    width: 800px;
-    display: flex;
-position: relative;
-   
-    
-h1 {
-    border: 10px solid red;
-    background-color:red;
-    height: 100px;
-    width: 100px;
-    
-}
-h2{
-    border: 10px solid blue;
-    background-color:blue;
-    height: 100px;
-    width: 100px;
-   
-    position: absolute;
-    right: 0px;
-    
+
+.grandp{
+    /*background-color: blanchedalmond;*/
+   color: blueviolet;
 }
 
-h3{
-    border: 10px solid green;
-    background-color:green;
-    height: 100px;
-    width: 100px;
-    
- 
 
-    
- }
+.parent{
+    color: aqua;
+    background-color: brown;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: "Caveat",Arial, sans-serif;
+    text-decoration: none;
+    /*text-shadow: 5px 2px wheat;*/
+
+
+}
+
+.first{
+    color: rgb(98, 226, 43);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: "Caveat",Arial, sans-serif;
+    text-decoration: none;
+    background-color:ye;
+}
+.second{
+    color: rgb(226, 43, 183);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: "Caveat",Arial, sans-serif;
+    text-decoration: underline gray;
+}
+.third{
+    color:black;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: "Caveat",Arial, sans-serif;
+    text-decoration: none;
+}
